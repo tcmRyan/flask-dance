@@ -169,6 +169,20 @@ Discord
 
 .. _custom-provider:
 
+Zoho
+-------
+.. module:: flask_dance.contrib.zoho
+
+.. autofunction:: make_discord_blueprint
+
+.. data:: zoho
+
+    A :class:`~werkzeug.local.LocalProxy` to a :class:`requests.Session` that
+    already has the Zoho authentication token loaded (assuming that the user
+    has authenticated with Zoho at some point in the past).
+
+.. _custom-provider:
+
 Custom
 ------
 

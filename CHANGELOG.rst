@@ -7,6 +7,7 @@ Changelog
 Added
 ~~~~~
 * Added ``tenant`` argument to ``make_azure_blueprint``
+* Added Zoho pre-set configuration
 
 Fixed
 ~~~~~
