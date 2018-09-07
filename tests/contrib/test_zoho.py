@@ -15,7 +15,7 @@ def test_blueprint_factory():
         client_secret="supersecret",
     )
     assert isinstance(zoho_bp, OAuth2ConsumerBlueprint)
-    assert zoho_bp.session.base_url == "https://www.zohoapis.com/crm/v2"
+    assert zoho_bp.session.base_url == "https://www.zohoapis.com"
     assert zoho_bp.session.client_id == "foobar"
     assert zoho_bp.client_secret == "supersecret"
     assert zoho_bp.token_url == "https://accounts.zoho.com/oauth/v2/token"
